@@ -45,7 +45,7 @@ for m in months_list:
 df = pd.DataFrame(results, columns =['Date','Buy','S1','Sell','S2','Profit'])
 df['ProfitTillDate'] = df['Profit'].cumsum()
 print(df)
-df.to_excel("./Rwsults/trailingSL_ORB.xlsx")
+df.to_excel("./Results/trailingSL_ORB.xlsx")
 
 
 
